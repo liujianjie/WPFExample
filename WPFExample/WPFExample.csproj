@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Resource\watermark.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\watermark.png" />
+  </ItemGroup>
+
 </Project>
